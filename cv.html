@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV numérique de Salma Khili, étudiante en systèmes embarqués à l'ISET Radès.">
+  <title>Salma Khili – CV numérique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="barre">
+    <nav aria-label="Navigation principale">
+      <a class="logo" href="#accueil">Salma Khili</a>
+      <button id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#experiences">Expériences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ACCUEIL -->
+    <section id="accueil" class="hero">
+      <svg class="circuit" viewBox="0 0 1200 520" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round">
+          <polyline points="0,90 220,90 280,150 520,150 580,90 860,90"/>
+          <polyline points="0,190 140,190 200,250 460,250"/>
+          <polyline points="1200,120 1000,120 940,180 760,180 700,240 560,240"/>
+          <polyline points="1200,330 1040,330 980,390 700,390 640,450 380,450 320,510"/>
+          <polyline points="0,400 180,400 240,340 420,340"/>
+          <polyline points="860,90 920,30 1200,30"/>
+        </g>
+        <g fill="currentColor">
+          <circle cx="860" cy="90" r="9"/><circle cx="460" cy="250" r="9"/>
+          <circle cx="560" cy="240" r="9"/><circle cx="420" cy="340" r="9"/>
+          <circle cx="320" cy="510" r="9"/><circle cx="1200" cy="30" r="9"/>
+        </g>
+      </svg>
+
+      <div class="hero-contenu">
+        <img src="salma.jpeg"Portrait de Salma Khili" class="photo" width="351" height="370">
+        <div>
+          <h1>Salma Khili</h1>
+          <p class="titre">Étudiante en 2<sup>e</sup> année systèmes embarqués, ISET Radès</p>
+          <p class="intro">
+            Je conçois des objets connectés autour des cartes ESP8266 et ESP32, du capteur
+            jusqu'au code. Curieuse et sérieuse, j'aime travailler en équipe et je cherche
+            un stage ou un premier poste en systèmes embarqués et IoT.
+          </p>
+          <p class="actions">
+            <a class="bouton" href="#projets">Voir mes projets</a>
+            <a class="bouton bouton-clair" href="#contact">Me contacter</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section id="competences">
+      <h2>Compétences acquises</h2>
+
+      <h3>Compétences techniques</h3>
+      <div class="grille">
+        <div class="bloc">
+          <h4>Langages</h4>
+          <ul class="puces">
+            <li>C</li><li>Java</li><li>HTML / CSS</li><li>JavaScript</li>
+            <li>PHP</li><li>VHDL</li><li>SQL</li><li>Python</li>
+          </ul>
+        </div>
+        <div class="bloc">
+          <h4>Électronique et embarqué</h4>
+          <ul class="puces">
+            <li>Arduino</li><li>ESP32</li><li>ESP8266</li><li>Capteurs</li>
+          </ul>
+        </div>
+        <div class="bloc">
+          <h4>Outils</h4>
+          <ul class="puces">
+            <li>VS Code</li><li>IntelliJ IDEA</li><li>Arduino IDE</li><li>Proteus</li>
+            <li>Android Studio</li><li>Quartus</li><li>MikroC</li>
+          </ul>
+        </div>
+        <div class="bloc">
+          <h4>Systèmes et réseau</h4>
+          <ul class="puces">
+            <li>Linux</li><li>Windows</li><li>Adressage IP</li><li>Cisco Packet Tracer</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Compétences transversales</h3>
+      <ul class="puces puces-simples">
+        <li>Travail en équipe</li>
+        <li>Rigueur</li>
+        <li>Motivation</li>
+        <li>Curiosité</li>
+      </ul>
+
+      <h3>Langues</h3>
+      <ul class="langues">
+        <li><strong>Arabe</strong> langue maternelle</li>
+        <li><strong>Français</strong> bon niveau</li>
+        <li><strong>Anglais</strong> bon niveau</li>
+      </ul>
+    </section>
+
+    <!-- EXPÉRIENCES -->
+    <section id="experiences">
+      <h2>Expériences et stages</h2>
+
+      <article class="fiche">
+        <header>
+          <h3>Stage de perfectionnement – SagemCom</h3>
+          <p class="periode">2025</p>
+        </header>
+        <p>Participation à un projet de climatisation à distance.</p>
+      </article>
+
+      <article class="fiche">
+        <header>
+          <h3>Stage d'initiation – Autoliv Ennadhour</h3>
+          <p class="periode">2025</p>
+        </header>
+        <p>Découverte du milieu industriel et des systèmes embarqués. Observation des procédés de production et de sécurité.</p>
+      </article>
+
+      <article class="fiche">
+        <header>
+          <h3>Agente de guichet – Tunisie Telecom, Espace Ennadhour</h3>
+          <p class="periode">Juillet 2026</p>
+        </header>
+        <p>Accueil et service à la clientèle au guichet de l'espace Tunisie Telecom.</p>
+      </article>
+    </section>
+
+    <!-- PARCOURS -->
+    <section id="parcours">
+      <h2>Parcours académique</h2>
+      <ol class="chrono">
+        <!-- Ajoute ici ton baccalauréat (année et section) : copie un bloc <li> ci-dessous -->
+        <li>
+          <p class="periode">2024 – 2025</p>
+          <h3>1<sup>re</sup> année en informatique, ISET Radès</h3>
+          <p>Projet de l'année : détection de gaz dans une maison avec un système IoT.</p>
+        </li>
+        <li>
+          <p class="periode">2025 – 2026</p>
+          <h3>2<sup>e</sup> année systèmes embarqués, ISET Radès</h3>
+          <p>Projet de l'année : système intelligent de gestion d'embarquement et de débarquement.</p>
+        </li>
+        <li>
+          <p class="periode">Certification</p>
+          <h3>Conception et impression de cartes électroniques</h3>
+          <p>Certificat complémentaire en électronique.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets">
+      <h2>Projets</h2>
+      <div class="grille">
+        <article class="fiche">
+          <h3>Détection de gaz par IoT</h3>
+          <p>Système qui surveille l'air d'une maison et signale la présence de gaz, construit autour d'une carte ESP8266 et de capteurs.</p>
+          <ul class="puces"><li>ESP8266</li><li>Capteurs</li><li>IoT</li></ul>
+          <!-- Quand ton projet est sur GitHub, ajoute son lien ici :
+          <a href="https://github.com/VOTRE-NOM/gaz-iot" target="_blank" rel="noopener">Voir le code (nouvel onglet)</a> -->
+        </article>
+        <article class="fiche">
+          <h3>Gestion intelligente de l'embarquement et du débarquement</h3>
+          <p>Projet de deuxième année en systèmes embarqués : un système qui gère les entrées et les sorties de manière automatique.</p>
+          <ul class="puces"><li>Systèmes embarqués</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact et liens externes</h2>
+      <p>Écris-moi, ou retrouve mon travail en ligne. Les liens s'ouvrent dans un nouvel onglet.</p>
+      <ul class="liens">
+        <li><a href="mailto:salmakhili8@gmail.com">salmakhili8@gmail.com</a></li>
+        <li><a href="https://github.com/VOTRE-NOM" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/VOTRE-PROFIL" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.isetrades.rnu.tn" target="_blank" rel="noopener noreferrer">ISET Radès</a></li>
+      </ul>
+      <p class="centres"><strong>Centres d'intérêt :</strong> nouvelles technologies, robotique, électronique.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Salma Khili · ISET Radès</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
